@@ -1,0 +1,382 @@
+*{margin:0 auto;padding:0;}
+
+body{
+	background:#eeeeee;
+	}
+	
+.clear{
+	clear:both;
+	}
+	
+.wrapper{
+	width:900px;
+	margin:0 auto;
+	}
+	
+header,footer,article{
+	display:block;
+	}
+	
+.nav-bar,.footer-links,.social-links,.row-panel-1,.quotes-panel p{
+	margin-left:40px;
+	margin-right:40px;
+	}
+	
+
+ /*----------------header starts----------------------------*/
+ header{background-image:url(../images/back-header.jpg);
+ 		padding-bottom:30px;
+		border-bottom:10px solid #e1e1e1;
+		}
+		
+		/*--------------------nav-bar--------------------*/
+		.nav-bar ul li{
+			float:left;
+			width:105px;
+			text-align:center;
+			background:#c1c1c1;
+			padding:8px 5px;
+			border-right:1px solid #ba0100;
+			list-style:none;	
+			display:block;							
+			}
+		.nav-bar a{
+			color:#363535;
+			text-decoration:none;
+			font-size:16px;
+			font-weight:bold;
+			font-family:Helvetica, sans-serif;			
+			}
+		.nav-bar a:hover,.selected a{
+				color:#ba0100;
+				}
+		.nav-bar li:last-child{
+					border:none;
+					}
+		
+		
+/*------------------end header-------------------*/
+		
+/*-------------------article starts--------------------------*/
+		
+article{
+		background-image:url(../images/car-back.jpg);
+		height:340px;
+		}
+		
+		/*------------------banner----------------*/		
+		.banner-text{
+			position:relative;
+			top:-300px;
+			color:#fff;
+			text-align:center;
+			font-family:helvetica;
+			line-height:35px;
+					}					
+		.banner-text .heading{
+				font-size:2em;
+				font-weight:bold;
+				padding-bottom:20px;
+						}
+		.banner-text .sub-heading{
+				font-size: 1.25em;
+				font-weight: lighter;						
+				}	
+			/*------------------banner end----------------*/	
+						
+			/*---------------button sell your car------------------------*/
+			
+		.banner-text .btn{
+				position:absolute;
+				left: 345px;
+				top: 170px;				
+				}
+		.banner-text .btn a{
+				text-decoration:none;
+				color:#fff;
+				background:#ba0100;
+				font-family:Helvetica, sans-serif;
+				font-weight:normal;
+				padding:10px;			
+				}
+		.banner-text .btn a:hover,.btn-learn-more a:hover{
+				background:#990100;
+				}
+		/*------------------End button sell----------------*/
+		
+		
+/*--------------Containter starts--------------------*/
+.get-started{
+				background:#fff;
+				padding-bottom:20px;
+				}
+				.panel-row-heading{
+						color:#333;
+						text-align:center;
+						padding-top:25px;
+						font-family:"Helvetica";
+						font-weight:bold;
+						font-size:22px;
+						}
+									
+			.row-panel-1 .col-4-md-1,.col-4-md{
+						float:left;	
+						margin-top:20px;				
+						width:140px;
+						display:block;						
+						background:#fff;
+						text-align:center;
+						margin-left:55px;
+						}
+				.row-panel-1 .col-4-md h4,.col-4-md-1 h4{
+						color:#737373;
+						font-family:Helvetica, sans-serif;
+						font-weight:lighter;
+						font-size:17px;
+						}											
+					
+		.quotes-panel{
+				background:#a10000;				
+				}
+		.quotes-panel p{
+				color:#fff;
+				font-family:Helvetica, sans-serif;
+				font-size:24px;
+				font-weight:normal;
+				text-align:center;
+				padding:50px 100px;			
+				}
+				
+		.why-sell-with-us{
+				background:#fff;				
+				}	
+		.panel-heading{
+				color:#333;
+				text-align:center;
+				padding-top:25px;
+				font-family:"Helvetica";
+				font-weight:bold;
+				font-size:22px;
+				}
+		.col-6-md{margin-left:30px;}
+		.col-6-md-2{margin-right:30px;}
+		.col-6-md-2,.col-6-md{
+				padding-top:20px;
+				padding-bottom:20px;
+				float:left;				
+				width:230px;
+				text-align:center;
+				display:block;
+				background:#fff;
+				margin-left:45px;
+				}		
+		.col-6-md-2 h4,.col-6-md h4{
+			color:#333;
+			font-weight:bold;
+			line-height:27px;
+			}
+		.col-6-md-2 p,.col-6-md p{
+			color:#737373;
+			font-family:Helvetica, sans-serif;
+			font-weight:lighter;
+			font-size:15px;
+			line-height:25px;
+		}
+		
+	/*------------------End of Container----------------*/	
+	
+	
+/*------------------Article End----------------*/		
+		
+	/*---------------------footer starts------------------*/
+footer{background:#333;
+		}
+		.footer-links{	
+			width:625px;
+			float:left;
+			padding:20px;
+			}
+		.social-links{			
+			float:left;
+			margin-top:10px;
+			}
+		.footer-links ul li{
+			float:left;		
+			color:#f9f9f9;
+			margin-left:20px;
+			}
+		.footer-links ul li:first-child{
+			list-style:none;
+		}
+		.footer-links ul li {
+			color:#f9f9f9;
+			font-family:Helvetica;
+			font-weight:lighter;
+			font-size:15px;
+			}
+		.footer-links h4,.footer-links h4 span{
+			font-family:Helvetica;
+			font-weight:lighter;
+			font-size:12px;
+			padding-top:2px;
+			}
+		.footer-links h4 span{
+			font-size:12px;
+			padding-top:4px;
+			}	
+		
+		.footer-links h4{
+			display:block;
+			color:#999;		
+			}		
+	
+	.fb{
+	background-image:url(../images/social-links/fb.png);
+	display:inline-block;
+	width:35px;height:35px;
+	}
+	.fb:hover{
+			background-image:url(../images/social-links/fb-hover.png);
+			width:35px;height:35px;
+			}
+	.skype{
+	background-image:url(../images/social-links/skype.png);
+	display:inline-block;
+	width:35px;height:35px;
+	}
+	.skype:hover{
+			background-image:url(../images/social-links/skype-hover.png);
+			width:35px;height:35px;
+			}
+	.twitter{
+	background-image:url(../images/social-links/twitter.png);
+	display:inline-block;
+	width:35px;height:35px;
+	}
+	.twitter:hover{
+			background-image:url(../images/social-links/twitter-hover.png);
+			width:35px;height:35px;
+			}
+			
+/*------------------Footer End----------------*/				
+			
+			
+/*------------------other page--------------------e*/
+.content{
+		color:#363535;			
+		font-size:14px;
+		font-weight:500;
+		font-family:Arial, Helvetica, sans-serif;
+		padding-top:50px;
+		padding-bottom:50px;
+		}
+		.page ul{
+			margin-left:40px;
+			padding-top:10px;
+			}
+		.page,.project{
+			margin-left:60px;
+			margin-right:60px;			
+			padding-bottom:20px;
+			padding-top: 20px;
+			}
+		.page img{
+			float:left;
+			padding-top:10px;
+			margin-right:10px;
+			}
+		.nrs{
+			margin-top:50px;
+			padding-right:0px;
+			width:335px;
+			}
+		.page p,.project p,.cnt-page p{
+			line-height: 1.4em;
+			padding-top:10px;		
+			text-align:justify;
+			}
+		
+		.logo{
+			margin-top:85px;
+			margin-left:25px;
+			}
+		.about{
+			float:right;
+			width:400px;
+			}
+		.col-2-md-2{
+			float:left;
+			width:350px;
+			padding:10px;
+			}
+		.col-heading{
+			text-decoration:underline;
+			}
+		li.service,li.sellcar{
+			padding-bottom:20px;
+			}
+		.page .sell{
+			float:right;
+			margin-top: 35px;
+			}
+		.project{
+			position:relative;
+			padding:20px;
+			background: white;
+    		margin: 20px;
+    		border-radius: 20px;
+			}
+		.project-text{
+			float:left;
+			width:435px;
+			margin-left: 30px;
+			}
+		.project h2{;
+			padding-bottom:30px;
+			}
+		.project-image{
+			float:left;
+			border-radius:10px;
+			width:290px;
+			height:240px;
+			}
+		.nrs-heading{
+			margin-bottom:30px;
+			}
+		
+		label{
+			font-size:16px;
+			font-weight:600;
+			font-family:Verdana, Geneva, sans-serif;
+			color:#363535;
+			}
+		input,option,select,textarea{
+			font-size:14px;
+			font-weight:500;
+			font-family:Verdana, Geneva, sans-serif;
+			color:#2f2f2f;
+			padding:5px 3px;
+			}
+		.border{
+			width:250px;
+			border-bottom: 1px solid #bdbdbd;
+			float: left;
+			}
+			
+		.page{
+			position:relative;
+			}
+		
+		.cnt-img{
+			position:absolute;
+			top:170px;
+			left:450px;
+			}
+			
+		.cnt-page p{
+			font-size:15px;
+			}
+			
+		
+			
+			
